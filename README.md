@@ -1,57 +1,90 @@
-# Quiz-terminal-py
-A lightweight, interactive command-line multiple-choice quiz game built with Python. Features dynamic score tracking and final percentage calculation.
 # Quiz Terminal Py 🧠
 
-A lightweight, interactive command-line multiple-choice quiz game built using Python. Test your general knowledge across various topics ranging from science and nature to astronomy directly from your terminal!
+A lightweight, interactive command-line multiple-choice quiz game built in Python. It tests general knowledge across topics like science, nature, and astronomy directly in the terminal with instant feedback and scoring.
 
 ---
 
 ## 🚀 Features
 
-* **Interactive CLI:** Simple, clean, text-based interface.
-* **Real-time Feedback:** Instantly tells you if your selection is correct or incorrect.
-* **Performance Summary:** Displays a recap of your inputs alongside the correct answers.
-* **Automated Scoring:** Generates a final score, including a percentage breakdown.
+* Interactive command-line interface with a clean experience
+* Real-time feedback for each answer (correct/incorrect)
+* Final score summary with percentage calculation
+* Review of correct answers at the end of the quiz
+* Lightweight and beginner-friendly Python project
 
 ---
 
 ## 🛠️ Requirements
 
-* Python 3.x installed on your machine.
+* Python 3.x installed
+
+No external libraries are required.
 
 ---
 
 ## 📦 Installation & Setup
 
-1. **Clone the repository:**
-   ```bash
-   git clone (https://github.com/Sayudh7/Quiz-terminal-py.git)
-2. Navigate into the project directory:
+### 1. Clone the repository
 
-  Bash
-  cd quiz-terminal-py
-  
-3. Run the script:
+```bash
+git clone https://github.com/Sayudh7/Quiz-terminal-py.git
+```
 
-  Bash
-  python quiz.py
+### 2. Navigate into the project directory
 
-  
-🎮 How to Play
-Run the script to start the quiz.
+```bash
+cd Quiz-terminal-py
+```
 
-Read the prompt and type your answer selection (a, b, c, or d).
+### 3. Run the program
 
-Press Enter to submit. (Note: Inputs are case-insensitive).
+```bash
+python quiz.py
+```
 
-Review your total score and percentage summary at the very end!
+---
 
-📝 Future Roadmap
-[ ] Add support for custom trivia categories via external JSON files.
+## 🎮 How to Play
 
-[ ] Implement a timed gameplay mode.
+1. Run the script using Python
+2. Read each question carefully
+3. Type your answer (`a`, `b`, `c`, or `d`)
+4. Press Enter to submit
+5. View your final score and performance summary at the end
 
-[ ] Create a local leaderboard to track high scores.
+---
 
-🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
+## 📝 Example Output
+
+```
+Q1: What is the capital of France?
+a) Berlin
+b) Madrid
+c) Paris
+d) Rome
+
+Your answer: c
+Correct!
+```
+
+---
+
+## 🧠 Future Improvements
+
+* Add custom quiz categories using JSON files
+* Implement timed quiz mode
+* Add a local high-score leaderboard
+* Improve the question randomisation system
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+* Fork the repository
+* Create a feature branch
+* Commit changes
+* Submit a pull request
+
+---
